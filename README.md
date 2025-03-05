@@ -68,22 +68,22 @@ Request Body: <br />
 Response Example:
 ```json
 {
-  data: {
-    id: "12345",
-    employee_id: "E12345",
-    department: "IT",
-    gender: "Male",
-    email: "john.doe@example.com",
-    phone_number: "+1234567890",
-    position: "Software Engineer",
-    full_name: "John Doe",
-    status: "Active",
-    access_token:
+  "data": {
+    "id": "12345",
+    "employee_id": "E12345",
+    "department": "IT",
+    "gender": "Male",
+    "email": "john.doe@example.com",
+    "phone_number": "+1234567890",
+    "position": "Software Engineer",
+    "full_name": "John Doe",
+    "status": "Active",
+    "access_token":
       "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWVmMjMxODgwMzQwOTQ5YjUwNDY5NCIsInVzZXJuYW1lIjoianRvZG9lIiwiYXBwSWQiOiIwMDAwMDUiLCJpYXQiOjE3NDExODU2MzAsImV4cCI6MTc3MjcyMTYzMH0.YrH4dMMSfmg7MnuYJqhMiMO73U4_ki-z188WLqbXPPg",
-    token_expired_at: 1772721630,
-    created_at: 1672531199000,
-    updated_at: 1672531199000,
-    deleted_at: null,
+    "token_expired_at": 1772721630,
+    "created_at": 1672531199000,
+    "updated_at": 1672531199000,
+    "deleted_at": null,
   },
 }
 ```
