@@ -4,6 +4,12 @@ exports.login = async (req, res) => {
   try {
     const { username, password } = req.body;
 
+    if (username !== 'dara' || password !== 'secret') {
+      return res.status(401).json({
+        error: "Unauthenticated.",
+      });
+    }
+
     if (process.env.API_TYPE == "rest") {
       return res.status(200).json({
         data: {
