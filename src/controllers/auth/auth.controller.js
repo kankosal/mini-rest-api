@@ -1,10 +1,10 @@
-const axios = require("axios");
+import axios from "axios";
 
-exports.login = async (req, res) => {
+const login = async (req, res) => {
   try {
     const { username, password } = req.body;
 
-    if (username !== 'dara' || password !== 'secret') {
+    if (username !== "dara" || password !== "secret") {
       return res.status(401).json({
         error: "Unauthenticated.",
       });
@@ -69,3 +69,5 @@ exports.login = async (req, res) => {
     });
   }
 };
+
+export default login;
